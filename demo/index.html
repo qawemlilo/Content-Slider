@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Raging Flame demo | Content Slider</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="container">
+        <div id="sliderDiv">
+            <div id="slideMover">
+		
+                <div class="slide">
+                    <h1>Latest Product: Apple Iphone</h1>
+					<ul>
+					    <li>List items</li>
+					    <li>List items</li>
+						<li>List items</li>
+					</ul>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+                    <a href="#"><img src="images/iphone.png" alt="learn more" /></a>	
+			    </div>
+
+                <div class="slide">
+				    <h1>Also just arrived</h1>
+					<ul>
+					    <li>List items</li>
+					    <li>List items</li>
+						<li>List items</li>
+					</ul>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+                    <a href="#"><img src="images/blackberry.png" alt="blackberry" /></a>	
+			    </div>
+			
+                <div class="slide">
+				    <h1>"One day only" Special</h1>
+					<ul>
+					    <li>List items</li>
+					    <li>List items</li>
+						<li>List items</li>
+					</ul>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+                    <a href="#"><img src="images/nexus_one.png" alt="learn more" /></a>	
+			    </div>
+			
+                <div class="slide">
+				    <h1>Buy one, get one free</h1>
+					<ul>
+					    <li>List items</li>
+					    <li>List items</li>
+						<li>List items</li>
+					</ul>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa.</p>
+                    <a href="#"><img src="images/nokia.png" alt="learn more" /></a>	
+			    </div>
+			
+            </div>
+        </div>
+    </div>
+	<a href="http://www.rflab.co.za/" id="back_link">BACK </a>  <a href="http://www.rflab.co.za/plugins/content-slider.html" id="home_link">DOCUMENTATION</a>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.contentSlider.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#slideMover").contentSlider({
+	    timeOut: 6000,         
+		speed: 300, 
+        registerButtons: true,
+        autoStart: true		
+	});
+	
+	$("#back_link").click(function(){
+	   history.go(-1);
+	});
+});
+</script>
+</body>
+</html>

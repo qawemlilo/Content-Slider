@@ -1,0 +1,116 @@
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+	background: white;
+	color:#fff;
+	background: 0px 100px url(images/bg.png) repeat-x;
+}
+
+#container {
+    position: absolute;
+	background: url(images/bokeh.jpg) no-repeat;
+	width: 1000px;
+	height: 490px;
+	top: 100px;
+	left: 50%;
+	margin-left: -500px;
+   font-family: verdana;
+}
+
+
+#sliderDiv { 
+  width: 1000px; 
+  background: transparent; 
+  height: 490px; 
+  overflow: hidden;
+  position: relative; 
+  margin: 0px;
+}
+
+							  
+#slideMover { 
+  width: 4000px; 
+  position: relative; 
+}
+
+.slide {
+  padding: 50px; 
+  width: 900px; 
+  float: left; 
+  position: relative; 
+}
+
+.slide p {
+   width: 400px;
+   font-size: 16px;
+ }
+ 
+h1 {
+   font-family: 'Josefin Sans', arial, serif;
+   width: 400px;
+}
+ 
+.slide img { 
+  position: absolute; 
+  top: 30px; 
+  left: 500px; 
+  width: 270px;
+  height: 400px;
+  border:0px;
+}
+
+a#back { 
+  position: absolute; 
+  left: 2px; 
+  color: #000000;
+  background: -5px -58px url(images/nav.png) no-repeat;
+  width: 35px; 
+  height: 35px; 
+  display: none;  
+  top:50%;
+  margin-top: -18px;  
+  z-index: 999; 
+  cursor:pointer;  
+}
+
+
+a#back:hover { 
+  background: -5px -7px url(images/nav.png) no-repeat;
+  text-decoration: none;
+}
+
+
+a#next { 
+  position: absolute; 
+  top:50%;
+  margin-top: -18px;
+  right: 2px; 
+  width: 35px; 
+  height: 35px; 
+  background: -58px -58px url(images/nav.png) no-repeat;
+  z-index: 1000;
+  display: none; 
+  cursor:pointer; 
+}
+
+a#next:hover { 
+  background: -58px -7px url(images/nav.png) no-repeat;
+  text-decoration: none;
+}
+
+a#back_link {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  text-decoration: none;
+}
+
+a#home_link {
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  text-decoration: none;
+}
+
+img, a { behavior: url(iepngfix.htc); }
