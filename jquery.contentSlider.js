@@ -51,7 +51,7 @@
 				        $(".slide img").stop().animate({"top": imgTop});
 			        });
 		        });
-				if (numRepeats > settings.repeats) {
+				if (numRepeats >= settings.repeats) {
 				    clearInterval(timoutID);
 					inMotion = false;
 					return false;
