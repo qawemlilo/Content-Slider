@@ -49,19 +49,19 @@ Include the Content Slider css in the head section of of your html page.
 <div id="slider">
     <div id="mover">
         <div class="slide">
-		    <-- Slide content here -->
+		    <!-- Slide content here -->
         </div>
 		
         <div class="slide">
-		    <-- Slide content here -->
+		    <!-- Slide content here -->
         </div>
 		
         <div class="slide">
-		    <-- Slide content here -->
+		    <!-- Slide content here -->
         </div>
 		
         <div class="slide">
-		    <-- Slide content here -->
+		    <!-- Slide content here -->
         </div>
     </div>
 </div>
