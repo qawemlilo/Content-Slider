@@ -24,7 +24,7 @@ Content Slider is a simple and elegant jQuery plugin that displays sliding html 
 
 Content Slider uses the following files:  
 
-* jQuery-1.4.4.js  
+* jQuery-1.6.1.js  
 * content-slider.css  
 * jquery.contentSlider.js  
 * iepngfix.htc (for png fix in IE6)   
@@ -74,7 +74,7 @@ Make sure the content is wrapped inside divs with a 'slide' class name JavaScrip
 
 
 ```javascript
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
     $("#mover").contentSlider({
