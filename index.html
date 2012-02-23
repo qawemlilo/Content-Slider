@@ -66,16 +66,12 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.contentSlider.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
+$(window).load(function() {
     $("#slideMover").contentSlider({
 	    timeOut: 6000,         
 		speed: 300, 
         registerButtons: true,
-        autoStart: true		
-	});
-	
-	$("#back_link").click(function(){
-	   history.go(-1);
+        autoStart: true	
 	});
 });
 </script>
