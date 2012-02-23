@@ -1,5 +1,7 @@
 # Content Slider  
 
+![jQuery Plugin](http://www.rflab.co.za/images/jquery_plugs.png)
+
 Content Slider is a simple and elegant jQuery plugin that displays sliding html content. This plugin was inspired by Chris Coyier's Start/Stop Slider which i came across when i was working on a project that required a slide showcase for products.  
 
 ### Features:
@@ -18,7 +20,7 @@ Content Slider is a simple and elegant jQuery plugin that displays sliding html 
 * Google Chrome  
 * Opera  
 
-## How to use  
+### How to use   
 
 Content Slider uses the following files:  
 
@@ -94,7 +96,7 @@ Include the javaScript code above at the botttom of your page(just before the cl
 
 ### OPTIONS:  
 
-* **autoStart** - (@boolean, defaults to 'true') Triggers the Content Slider to run as soon as the page loads.   
+* **autoStart** - (@boolean, @default = true) Triggers the Content Slider to run as soon as the page loads.   
 
 
 
@@ -108,7 +110,7 @@ Include the javaScript code above at the botttom of your page(just before the cl
 
 
 
-* **registerButtons** - (@boolean, defaults to 'true')  If set to true, navigation buttons are displayed when the mouse hovers over sliding content.   
+* **registerButtons** - (@boolean, @default = true)  If set to true, navigation buttons are displayed when the mouse hovers over sliding content.   
 
 
 
